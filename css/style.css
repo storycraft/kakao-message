@@ -1,0 +1,118 @@
+html, body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+textarea, input {
+    border: none;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.inline {
+    display: inline-block;
+    position: relative;
+}
+
+.inline-flex {
+    display: inline-flex;
+    position: relative;
+}
+
+.background {
+    width: 90%;
+    min-height: 10%;
+    height: 100%;
+    background-color: rgb(178,199,219);
+    padding: 15px;
+    margin: 20px 20px;
+    position: relative;
+}
+
+.fake-box {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 0px;
+}
+
+.nickname-box {
+    display: block;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    color: rgb(38, 38, 38);
+    font-family: "맑은 고딕";
+    font-size: 16px;
+}
+
+.talk-mark {
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 1px);
+    box-shadow: -2px 1px 1px 0px rgba(180, 180, 180, 0.75);
+    position: relative;
+    left: 1px;
+    top: 5px;
+    z-index: 9999;
+}
+
+.talk-box {
+    vertical-align: top;
+}
+
+.extra-box {
+    right: 0px;
+    display: block;
+
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    height: auto;
+    padding: 0px 0px;
+}
+
+.reader-count-box {
+    color: rgb(230, 228, 142);
+    width: 5ch;
+    text-shadow: -2px 1px 1px 0px rgba(180, 180, 180, 0.75);
+}
+
+.sentdate-box {
+    width: 10ch;
+    color: rgb(64, 64, 64);
+}
+
+.message-box {
+    background-color: white;
+    position: relative;
+    border-radius: 2px;
+    padding: 5px 5px;
+    box-shadow: 0px 1px 1px 0px rgba(180, 180, 180, 0.75);
+}
+
+.message-container {
+    position: relative;
+}
+
+.text-box {
+    display: block;
+    font-size: 16px;
+    height: 25px;
+    min-width: 16px;
+    max-width: 200px;
+    font-family: "맑은 고딕";
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
