@@ -63,12 +63,13 @@ textarea, input {
     box-shadow: -2px 1px 1px 0px rgba(180, 180, 180, 0.75);
     position: relative;
     left: 1px;
-    top: 5px;
+    top: 6px;
     z-index: 9999;
 }
 
 .talk-box {
     vertical-align: top;
+    top: -5px;
 }
 
 .extra-box {
