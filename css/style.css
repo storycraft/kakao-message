@@ -69,7 +69,7 @@ textarea, input {
 
 .talk-box {
     vertical-align: top;
-    top: -5px;
+    top: -4px;
 }
 
 .extra-box {
@@ -106,13 +106,13 @@ textarea, input {
 }
 
 .text-box {
-    display: block;
-    font-size: 16px;
-    height: 25px;
+    font-size: 15px;
+    height: 24px;
     min-width: 16px;
     max-width: 200px;
     font-family: "맑은 고딕";
     resize: none;
+    vertical-align: middle;
     overflow: hidden;
     box-sizing: border-box;
     padding: 0px 0px;
